@@ -8,11 +8,11 @@ import java.io.FileNotFoundException;
 public class Tres {
   public static void main(String[] args) {
   /*  try {
-      //Creación
+      //Creación del File
       FileWriter writeInFile = new FileWriter("Bandas.txt");
-        //Agregar contenido al archivo
-        writeInFile.write("\nBink 182 \nTwenty one pilots \nParamore \nMy chemical romance \nBob Marley \nCharly Garcia \nNirvana \nQueen \nLana del Rey \nPink Floyd");
-        writeInFile.close();
+      //Agregar contenido al archivo
+      writeInFile.write("\nBink 182 \nTwenty one pilots \nParamore \nMy chemical romance \nBob Marley \nCharly Garcia \nNirvana \nQueen \nLana del Rey \nPink Floyd");
+      writeInFile.close();
       System.out.println("El archivo fue creado");
     } catch (IOException x) {
       System.out.println("Hubo un error");
