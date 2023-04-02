@@ -25,28 +25,23 @@ public class Uno {
        pri=z[0];
        seg=z[1];
        ter=z[2];
-     
-    } else if ((z[0]>z[1] && z[0]>z[2]) && (z[2]<z[0] && z[2]>z[1])) {
+    }else if ((z[0]>z[1] && z[0]>z[2]) && (z[2]<z[0] && z[2]>z[1])) {
         pri=z[0];
         seg=z[2];
         ter=z[1];
-     
-    } else if ((z[1]>z[0] && z[1]>z[2]) && (z[0]<z[1] && z[0]>z[2])) {
+    }else if ((z[1]>z[0] && z[1]>z[2]) && (z[0]<z[1] && z[0]>z[2])) {
         pri=z[1];
         seg=z[0];
         ter=z[2];
-    
-     } else if ((z[1]>z[0] && z[1]>z[2]) && (z[2]<z[1] && z[2]>z[0])) {
+    }else if ((z[1]>z[0] && z[1]>z[2]) && (z[2]<z[1] && z[2]>z[0])) {
          pri=z[1];
          seg=z[2];
          ter=z[0];
-    
-     } else if ((z[2]>z[0] && z[2]>z[1]) && (z[1]<z[2] && z[1]>z[0])) {
+    }else if ((z[2]>z[0] && z[2]>z[1]) && (z[1]<z[2] && z[1]>z[0])) {
          pri=z[2];
          seg=z[1];
          ter=z[0];
-         
-     }else{
+    }else{
          pri=z[2];
          seg=z[0];
          ter=z[1];
